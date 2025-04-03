@@ -1,7 +1,7 @@
 import "./btn3.css";
 
 type incomingData = {
-  isActive: string;
+  isActive: boolean;
 };
 
 const HamBtn = (props: incomingData) => {
