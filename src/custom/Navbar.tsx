@@ -4,7 +4,7 @@ import HamBtn from "./buttons/HamBtn";
 
 const Navbar = () => {
 
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState<boolean>(false);
   console.log(menu);
 
   const toggleMenu = useCallback(() => {
