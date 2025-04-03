@@ -12,7 +12,7 @@ const Header = () => {
           duration: 0.4,
           scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
         }}
-        className="min-h-[65vh] sm:min-h-[80vh] md:min-h-screen w-[85%] bg-cover bg-no-repeat rounded-lg flex flex-col justify-end md:justify-center gap-2 p-4 md:p-10 items-end m-5 z-10"
+        className="min-h-[65vh] sm:min-h-[80vh] md:min-h-screen w-[90%] bg-cover bg-no-repeat rounded-lg flex flex-col justify-end md:justify-center gap-2 p-4 md:p-10 items-end ml-2 mr-5 my-5 z-10"
         style={{ backgroundImage: `url(${headerImg})` }}
       >
         <h3 className="text-base md:text-4xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-100 font-medium">
@@ -27,7 +27,7 @@ const Header = () => {
         <HeaderBtn />
       </motion.div>
 
-      <motion.div className="min-h-[65vh] sm:min-h-[80vh] md:min-h-screen max-w-[15%] flex justify-center items-center p-7 md:p-10 z-0">
+      <motion.div className="min-h-[65vh] sm:min-h-[80vh] md:min-h-screen max-w-[10%] flex justify-center items-center p-7 md:p-10 z-0">
         <motion.h1
           initial={{ y: "20vh", opacity: 0 }} // Start off-screen to the right
           animate={{ y: 10, opacity: 1 }} // Slide into place
