@@ -1,12 +1,17 @@
-
 import Header from '../custom/Header'
-// import Overview from '../custom/Overview'
+import Overview from '../custom/Overview'
+import Services from '../custom/Services'
+import Stats from '../custom/Stats'
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header />
-      {/* <Overview /> */}
+      <Overview />
+      <Services />
+      <Stats />
+      <div className='min-h-screen'>
+      </div>
     </div>
   )
 }
